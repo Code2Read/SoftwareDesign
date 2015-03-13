@@ -1,0 +1,150 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<layerModel xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/SimpleShapesModel" dslVersion="1.0.0.0" Id="b6cca21b-4cfe-4a3a-9401-a9c8c11854bf" xmlns="http://schemas.microsoft.com/VisualStudio/TeamArchitect/LayerDesigner">
+  <layers>
+    <layer Id="d209fa9e-99ef-4962-9545-8e07c8de8533" name="Core">
+      <childLayers>
+        <layer Id="938565a7-bee8-4370-b8b5-b2b998c092e0" name="Modelo">
+          <references>
+            <reference Id="6b5248d3-04a9-4b76-88a2-9ae0b73f5dc6" name="Modelo">
+              <ArtifactNode Label="Modelo" Category="CodeSchema_ProjectItem" Id="(Assembly=../Core/Core.csproj File=../Core/Modelo/)">
+                <Category Ref="ProjectFolder" />
+              </ArtifactNode>
+              <ExpandedNode Id="(Assembly=Core Namespace=Core.Modelo Type=Credencial)" Label="Credencial" Category="CodeSchema_Class">
+                <LinkCategory Ref="Represents" />
+              </ExpandedNode>
+              <ExpandedNode Id="(Assembly=Core Namespace=Core.Modelo Type=INotificacion)" Label="INotificacion" Category="CodeSchema_Interface">
+                <LinkCategory Ref="Represents" />
+              </ExpandedNode>
+              <ExpandedNode Id="(Assembly=Core Namespace=Core.Modelo Type=NotificacionCambioContrasena)" Label="NotificacionCambioContrasena" Category="CodeSchema_Class">
+                <LinkCategory Ref="Represents" />
+              </ExpandedNode>
+              <ExpandedNode Id="(Assembly=Core Namespace=Core.Modelo Type=NotificacionReseteoContrasena)" Label="NotificacionReseteoContrasena" Category="CodeSchema_Class">
+                <LinkCategory Ref="Represents" />
+              </ExpandedNode>
+              <ExpandedNode Id="(Assembly=Core Namespace=Core.Modelo Type=ResultadoAutenticacion)" Label="ResultadoAutenticacion" Category="CodeSchema_Class">
+                <LinkCategory Ref="Represents" />
+              </ExpandedNode>
+              <ExpandedNode Id="(Assembly=Core Namespace=Core.Modelo Type=ErrorAutenticacion)" Label="ErrorAutenticacion" Category="CodeSchema_Enum">
+                <LinkCategory Ref="Represents" />
+              </ExpandedNode>
+              <ExpandedNode Id="(Assembly=Core Namespace=Core.Modelo Type=ResultadoCambioContrasena)" Label="ResultadoCambioContrasena" Category="CodeSchema_Class">
+                <LinkCategory Ref="Represents" />
+              </ExpandedNode>
+              <ExpandedNode Id="(Assembly=Core Namespace=Core.Modelo Type=ErrorCambioContrasena)" Label="ErrorCambioContrasena" Category="CodeSchema_Enum">
+                <LinkCategory Ref="Represents" />
+              </ExpandedNode>
+              <ExpandedNode Id="(Assembly=Core Namespace=Core.Modelo Type=Usuario)" Label="Usuario" Category="CodeSchema_Class">
+                <LinkCategory Ref="Represents" />
+              </ExpandedNode>
+            </reference>
+          </references>
+        </layer>
+        <layer Id="61cd2ceb-5b79-463f-91c2-b94ad77b6cec" name="Repositorio">
+          <dependencyToLayers>
+            <dependencyFromLayerToLayer Id="ec92246b-d555-4624-a693-00b4e31ab7bf" direction="Forward">
+              <layerMoniker Id="938565a7-bee8-4370-b8b5-b2b998c092e0" />
+            </dependencyFromLayerToLayer>
+          </dependencyToLayers>
+          <references>
+            <reference Id="063a40fa-ba96-410f-af7c-4c7423066f65" name="Repositorios">
+              <ArtifactNode Label="Repositorios" Category="CodeSchema_ProjectItem" Id="(Assembly=../Core/Core.csproj File=../Core/Repositorios/)">
+                <Category Ref="ProjectFolder" />
+              </ArtifactNode>
+              <ExpandedNode Id="(Assembly=Core Namespace=Core.Repositorios Type=IRepositorioComandoUsuario)" Label="IRepositorioComandoUsuario" Category="CodeSchema_Interface">
+                <LinkCategory Ref="Represents" />
+              </ExpandedNode>
+              <ExpandedNode Id="(Assembly=Core Namespace=Core.Repositorios Type=IRepositorioConsultaUsuario)" Label="IRepositorioConsultaUsuario" Category="CodeSchema_Interface">
+                <LinkCategory Ref="Represents" />
+              </ExpandedNode>
+            </reference>
+          </references>
+        </layer>
+        <layer Id="94ada6fb-6d70-489b-8d29-75ac1e5b6e82" name="Servicios">
+          <dependencyToLayers>
+            <dependencyFromLayerToLayer Id="bb5a9eb5-1b09-4c58-a003-ec2dd44e9404" direction="Forward">
+              <layerMoniker Id="61cd2ceb-5b79-463f-91c2-b94ad77b6cec" />
+            </dependencyFromLayerToLayer>
+            <dependencyFromLayerToLayer Id="70f612ec-512f-4798-b54c-d503454f9bee" direction="Forward">
+              <layerMoniker Id="938565a7-bee8-4370-b8b5-b2b998c092e0" />
+            </dependencyFromLayerToLayer>
+          </dependencyToLayers>
+          <references>
+            <reference Id="6555a8a6-a390-492a-b3bd-5b7192f4b089" name="Servicios">
+              <ArtifactNode Label="Servicios" Category="CodeSchema_ProjectItem" Id="(Assembly=../Core/Core.csproj File=../Core/Servicios/)">
+                <Category Ref="ProjectFolder" />
+              </ArtifactNode>
+              <ExpandedNode Id="(Assembly=Core Namespace=Core.Servicios Type=ICriptografia)" Label="ICriptografia" Category="CodeSchema_Interface">
+                <LinkCategory Ref="Represents" />
+              </ExpandedNode>
+              <ExpandedNode Id="(Assembly=Core Namespace=Core.Servicios Type=ILog)" Label="ILog" Category="CodeSchema_Interface">
+                <LinkCategory Ref="Represents" />
+              </ExpandedNode>
+              <ExpandedNode Id="(Assembly=Core Namespace=Core.Servicios Type=IServicioAutenticacion)" Label="IServicioAutenticacion" Category="CodeSchema_Interface">
+                <LinkCategory Ref="Represents" />
+              </ExpandedNode>
+              <ExpandedNode Id="(Assembly=Core Namespace=Core.Servicios Type=IServicioCambioContrasena)" Label="IServicioCambioContrasena" Category="CodeSchema_Interface">
+                <LinkCategory Ref="Represents" />
+              </ExpandedNode>
+              <ExpandedNode Id="(Assembly=Core Namespace=Core.Servicios Type=IServicioGeneracionContrasena)" Label="IServicioGeneracionContrasena" Category="CodeSchema_Interface">
+                <LinkCategory Ref="Represents" />
+              </ExpandedNode>
+              <ExpandedNode Id="(Assembly=Core Namespace=Core.Servicios Type=(Name=IServicioNotificacion GenericParameterCount=1))" Label="IServicioNotificacion‎&lt;T‎&gt;" Category="CodeSchema_Interface">
+                <LinkCategory Ref="Represents" />
+              </ExpandedNode>
+              <ExpandedNode Id="(Assembly=Core Namespace=Core.Servicios Type=ServicioAutenticacion)" Label="ServicioAutenticacion" Category="CodeSchema_Class">
+                <LinkCategory Ref="Represents" />
+              </ExpandedNode>
+              <ExpandedNode Id="(Assembly=Core Namespace=Core.Servicios Type=ServicioAutenticacionAdaptadorLog)" Label="ServicioAutenticacionAdaptadorLog" Category="CodeSchema_Class">
+                <LinkCategory Ref="Represents" />
+              </ExpandedNode>
+              <ExpandedNode Id="(Assembly=Core Namespace=Core.Servicios Type=ServicioCambioContrasena)" Label="ServicioCambioContrasena" Category="CodeSchema_Class">
+                <LinkCategory Ref="Represents" />
+              </ExpandedNode>
+            </reference>
+          </references>
+        </layer>
+      </childLayers>
+    </layer>
+    <layer Id="6b78cdc8-20da-40c5-8185-a4ae56a8470c" name="Infraestructura">
+      <dependencyToLayers>
+        <dependencyFromLayerToLayer Id="7ba10466-de00-4c36-9518-2187d42443b6" direction="Forward">
+          <layerMoniker Id="d209fa9e-99ef-4962-9545-8e07c8de8533" />
+        </dependencyFromLayerToLayer>
+      </dependencyToLayers>
+      <references>
+        <reference Id="b70ea9de-b91a-4c89-a7fe-c562de745988" name="Infraestructura">
+          <ArtifactNode Label="Infraestructura" Category="CodeSchema_Project" Id="(Assembly=../Infraestructura/Infraestructura.csproj)">
+            <Category Ref="File" />
+          </ArtifactNode>
+          <ExpandedNode Id="(Assembly=Infraestructura)" Label="Infraestructura.dll" Category="CodeSchema_Assembly">
+            <Category Ref="FileSystem.Category.FileOfType.dll" />
+            <LinkCategory Ref="Produces" />
+            <LinkCategory Ref="Represents" />
+          </ExpandedNode>
+        </reference>
+      </references>
+    </layer>
+    <layer Id="ffcca2bc-cc47-4957-8dad-cf51ae86a978" name="Consola">
+      <dependencyToLayers>
+        <dependencyFromLayerToLayer Id="aa46c3bf-e123-406d-bd2b-af68a93c8f67" direction="Forward">
+          <layerMoniker Id="d209fa9e-99ef-4962-9545-8e07c8de8533" />
+        </dependencyFromLayerToLayer>
+        <dependencyFromLayerToLayer Id="33f627e1-364e-4fde-99cc-36af4c4339e1" direction="Forward">
+          <layerMoniker Id="6b78cdc8-20da-40c5-8185-a4ae56a8470c" />
+        </dependencyFromLayerToLayer>
+      </dependencyToLayers>
+      <references>
+        <reference Id="ef94fc05-31d2-41ea-ac6d-42506ae1fdcd" name="UI.Consola">
+          <ArtifactNode Label="UI.Consola" Category="CodeSchema_Project" Id="(Assembly=../UI.Consola/UI.Consola.csproj)">
+            <Category Ref="File" />
+          </ArtifactNode>
+          <ExpandedNode Id="(Assembly=UI.Consola)" Label="UI.Consola.exe" Category="CodeSchema_Assembly">
+            <Category Ref="FileSystem.Category.FileOfType.exe" />
+            <LinkCategory Ref="Produces" />
+            <LinkCategory Ref="Represents" />
+          </ExpandedNode>
+        </reference>
+      </references>
+    </layer>
+  </layers>
+</layerModel>

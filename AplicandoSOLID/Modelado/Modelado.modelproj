@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{9ac27df9-847c-4d4c-a66b-481cc0fb20c5}</ProjectGuid>
+    <ArchitectureToolsVersion>2.0.0.0</ArchitectureToolsVersion>
+    <Name>Modelado</Name>
+    <RootNamespace>Modelado</RootNamespace>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <OutputPath>bin\Debug\</OutputPath>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <OutputPath>bin\Release\</OutputPath>
+  </PropertyGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(VSToolsPath)\ArchitectureTools\Microsoft.VisualStudio.TeamArchitect.ModelingProject.targets" Condition="'$(VSToolsPath)' != ''" />
+  <ItemGroup>
+    <Folder Include="ModelDefinition\" />
+    <Content Include="ModelDefinition\Modelado.uml">
+      <SubType>Content</SubType>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Core\Core.csproj">
+      <Name>Core</Name>
+      <Project>{3f788e0f-7078-425b-8714-81b665fec5a5}</Project>
+    </ProjectReference>
+    <ProjectReference Include="..\Infraestructura\Infraestructura.csproj">
+      <Name>Infraestructura</Name>
+      <Project>{b545ac73-e16f-4b36-b4cb-43cffd4daa03}</Project>
+    </ProjectReference>
+    <ProjectReference Include="..\UI.Consola\UI.Consola.csproj">
+      <Name>UI.Consola</Name>
+      <Project>{6a0baa05-fae1-492d-a299-595a00bc3865}</Project>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Validate Include="LayerDiagram.layerdiagram">
+      <SubType>Content</SubType>
+    </Validate>
+    <Validate Include="LayerDiagram.layerdiagram.layout">
+      <SubType>Content</SubType>
+      <DependentUpon>LayerDiagram.layerdiagram</DependentUpon>
+    </Validate>
+    <Validate Include="LayerDiagram.layerdiagram.suppressions">
+      <SubType>Content</SubType>
+      <DependentUpon>LayerDiagram.layerdiagram</DependentUpon>
+    </Validate>
+  </ItemGroup>
+</Project>
