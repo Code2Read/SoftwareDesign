@@ -14,24 +14,25 @@ namespace Core.Servicios
         // otras es que se reemplace a la clase  x otra como el repositorio. imple todos los metodos
         private readonly IRepositorioConsultaUsuario _repositorioConsultaUsuario;
         private readonly ICriptografia _criptografia;
-        private readonly IServicioGeneracionContrasena _servicioGeneracionContrasena;
         private readonly IRepositorioComandoUsuario _repositorioComandoUsuario;
+        
+        public IServicioGeneracionContrasena ServicioGeneracionContrasena { get; set; }
 
         public ServicioCambioContrasena(
-            IRepositorioConsultaUsuario repositorioConsultaUsuario, ICriptografia criptografia, 
-            IServicioGeneracionContrasena servicioGeneracionContrasena, 
+            IRepositorioConsultaUsuario repositorioConsultaUsuario, 
+            ICriptografia criptografia, 
             IRepositorioComandoUsuario repositorioComandoUsuario)
         {
             _repositorioConsultaUsuario = repositorioConsultaUsuario;
             _criptografia = criptografia;
-            _servicioGeneracionContrasena = servicioGeneracionContrasena;
             _repositorioComandoUsuario = repositorioComandoUsuario;
         }
 
         const int LongitudMinimaContrasena = 8;
         const string FormatoExpresionRegularContrasena = @"^(?=.*\d)(?=.*[a-z])(?=.*[A-Z])(?!.*\s).{8,20}$";
 
-        public ResultadoCambioContrasena Cambiar(string idUsuario, string nuevaContrasena,IServicioNotificacion<NotificacionCambioContrasena> servicioNotificacion)
+        public ResultadoCambioContrasena Cambiar(string idUsuario, string nuevaContrasena,
+            IServicioNotificacion<NotificacionCambioContrasena> servicioNotificacion)
         {
             Usuario usuario = BuscarUsuario(idUsuario);
 
@@ -55,7 +56,7 @@ namespace Core.Servicios
 
             ActualizarContrasena(idUsuario, nuevaContrasena);
 
-            servicioNotificacion.Enviar(new NotificacionCambioContrasena());
+            servicioNotificacion.Enviar(new NotificacionCambioContrasena{Usuario = usuario});
 
             return new ResultadoCambioContrasena { ContrasenaActualizada = true };
         }
@@ -107,11 +108,13 @@ namespace Core.Servicios
 
         public void Resetear(string idUsuario, IServicioNotificacion<NotificacionReseteoContrasena> servicioNotificacion)
         {
-            string nuevaContrasena = _servicioGeneracionContrasena.Generar();
+            Usuario usuario = BuscarUsuario(idUsuario);
+
+            string nuevaContrasena = ServicioGeneracionContrasena.Generar();
             
             ActualizarContrasena(idUsuario, nuevaContrasena);
 
-            servicioNotificacion.Enviar(new NotificacionReseteoContrasena());
+            servicioNotificacion.Enviar(new NotificacionReseteoContrasena{Usuario = usuario});
         }
         
     }

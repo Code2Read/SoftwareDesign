@@ -30,19 +30,22 @@ namespace UI.Consola
 
             servicioAutenticacionLog.AutenticarUsuario(new Credencial());
 
-            IServicioGeneracionContrasena servicioGeneracionContrasena = new ServicioGeneracionContrasenaRng();
             IRepositorioComandoUsuario repositorioComando = new RepositorioComandoUsuarioSql();
 
-            IServicioCambioContrasena servicioCambioContrasena =
+            var servicioCambioContrasena =
                 new ServicioCambioContrasena(
-                    repositorioConsulta, critografia,
-                    servicioGeneracionContrasena, repositorioComando);
-
-            servicioCambioContrasena.Cambiar(string.Empty, string.Empty,
-                new ServicioNotificacioncambioContrasena(new NotificacionCambioContrasena()));
+                    repositorioConsulta, 
+                    critografia,
+                    repositorioComando);
             
+            servicioCambioContrasena.Cambiar(string.Empty, string.Empty,
+                new ServicioNotificacioncambioContrasena());
+            
+            servicioCambioContrasena.ServicioGeneracionContrasena= 
+                new ServicioGeneracionContrasenaRng();
+
             servicioCambioContrasena.Resetear(string.Empty,
-                new ServicioNotificacionReseteoContrasena(new NotificacionReseteoContrasena()));
+                new ServicioNotificacionReseteoContrasena());
         }
     }
 }
