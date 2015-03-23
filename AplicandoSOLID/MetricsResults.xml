@@ -1,0 +1,919 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CodeMetricsReport Version="10.0">
+  <Targets>
+    <Target Name="F:\Proyectos\Blog\SoftwareDesign\AplicandoSOLID\Core\bin\Debug\Core.dll">
+      <Modules>
+        <Module Name="Core.dll" AssemblyVersion="1.0.0.0" FileVersion="1.0.0.0">
+          <Metrics>
+            <Metric Name="MaintainabilityIndex" Value="94" />
+            <Metric Name="CyclomaticComplexity" Value="89" />
+            <Metric Name="ClassCoupling" Value="21" />
+            <Metric Name="DepthOfInheritance" Value="1" />
+            <Metric Name="LinesOfCode" Value="113" />
+          </Metrics>
+          <Namespaces>
+            <Namespace Name="Core.Modelo">
+              <Metrics>
+                <Metric Name="MaintainabilityIndex" Value="96" />
+                <Metric Name="CyclomaticComplexity" Value="52" />
+                <Metric Name="ClassCoupling" Value="5" />
+                <Metric Name="DepthOfInheritance" Value="1" />
+                <Metric Name="LinesOfCode" Value="46" />
+              </Metrics>
+              <Types>
+                <Type Name="Credencial">
+                  <Metrics>
+                    <Metric Name="MaintainabilityIndex" Value="94" />
+                    <Metric Name="CyclomaticComplexity" Value="5" />
+                    <Metric Name="ClassCoupling" Value="0" />
+                    <Metric Name="DepthOfInheritance" Value="1" />
+                    <Metric Name="LinesOfCode" Value="5" />
+                  </Metrics>
+                  <Members>
+                    <Member Name="Usuario.get() : string">
+                      <Metrics>
+                        <Metric Name="MaintainabilityIndex" Value="98" />
+                        <Metric Name="CyclomaticComplexity" Value="1" />
+                        <Metric Name="ClassCoupling" Value="0" />
+                        <Metric Name="LinesOfCode" Value="1" />
+                      </Metrics>
+                    </Member>
+                    <Member Name="Usuario.set(string) : void">
+                      <Metrics>
+                        <Metric Name="MaintainabilityIndex" Value="95" />
+                        <Metric Name="CyclomaticComplexity" Value="1" />
+                        <Metric Name="ClassCoupling" Value="0" />
+                        <Metric Name="LinesOfCode" Value="1" />
+                      </Metrics>
+                    </Member>
+                    <Member Name="Contrasena.get() : string">
+                      <Metrics>
+                        <Metric Name="MaintainabilityIndex" Value="98" />
+                        <Metric Name="CyclomaticComplexity" Value="1" />
+                        <Metric Name="ClassCoupling" Value="0" />
+                        <Metric Name="LinesOfCode" Value="1" />
+                      </Metrics>
+                    </Member>
+                    <Member Name="Contrasena.set(string) : void">
+                      <Metrics>
+                        <Metric Name="MaintainabilityIndex" Value="95" />
+                        <Metric Name="CyclomaticComplexity" Value="1" />
+                        <Metric Name="ClassCoupling" Value="0" />
+                        <Metric Name="LinesOfCode" Value="1" />
+                      </Metrics>
+                    </Member>
+                    <Member Name="Credencial()">
+                      <Metrics>
+                        <Metric Name="MaintainabilityIndex" Value="100" />
+                        <Metric Name="CyclomaticComplexity" Value="1" />
+                        <Metric Name="ClassCoupling" Value="0" />
+                        <Metric Name="LinesOfCode" Value="1" />
+                      </Metrics>
+                    </Member>
+                  </Members>
+                </Type>
+                <Type Name="INotificacion">
+                  <Metrics>
+                    <Metric Name="MaintainabilityIndex" Value="100" />
+                    <Metric Name="CyclomaticComplexity" Value="6" />
+                    <Metric Name="ClassCoupling" Value="0" />
+                    <Metric Name="DepthOfInheritance" Value="0" />
+                    <Metric Name="LinesOfCode" Value="0" />
+                  </Metrics>
+                  <Members>
+                    <Member Name="CorreoPara.get() : string">
+                      <Metrics>
+                        <Metric Name="MaintainabilityIndex" Value="100" />
+                        <Metric Name="CyclomaticComplexity" Value="1" />
+                        <Metric Name="ClassCoupling" Value="0" />
+                        <Metric Name="LinesOfCode" Value="0" />
+                      </Metrics>
+                    </Member>
+                    <Member Name="CorreoPara.set(string) : void">
+                      <Metrics>
+                        <Metric Name="MaintainabilityIndex" Value="100" />
+                        <Metric Name="CyclomaticComplexity" Value="1" />
+                        <Metric Name="ClassCoupling" Value="0" />
+                        <Metric Name="LinesOfCode" Value="0" />
+                      </Metrics>
+                    </Member>
+                    <Member Name="CorreoDe.get() : string">
+                      <Metrics>
+                        <Metric Name="MaintainabilityIndex" Value="100" />
+                        <Metric Name="CyclomaticComplexity" Value="1" />
+                        <Metric Name="ClassCoupling" Value="0" />
+                        <Metric Name="LinesOfCode" Value="0" />
+                      </Metrics>
+                    </Member>
+                    <Member Name="CorreoDe.set(string) : void">
+                      <Metrics>
+                        <Metric Name="MaintainabilityIndex" Value="100" />
+                        <Metric Name="CyclomaticComplexity" Value="1" />
+                        <Metric Name="ClassCoupling" Value="0" />
+                        <Metric Name="LinesOfCode" Value="0" />
+                      </Metrics>
+                    </Member>
+                    <Member Name="Asunto.get() : string">
+                      <Metrics>
+                        <Metric Name="MaintainabilityIndex" Value="100" />
+                        <Metric Name="CyclomaticComplexity" Value="1" />
+                        <Metric Name="ClassCoupling" Value="0" />
+                        <Metric Name="LinesOfCode" Value="0" />
+                      </Metrics>
+                    </Member>
+                    <Member Name="Asunto.set(string) : void">
+                      <Metrics>
+                        <Metric Name="MaintainabilityIndex" Value="100" />
+                        <Metric Name="CyclomaticComplexity" Value="1" />
+                        <Metric Name="ClassCoupling" Value="0" />
+                        <Metric Name="LinesOfCode" Value="0" />
+                      </Metrics>
+                    </Member>
+                  </Members>
+                </Type>
+                <Type Name="NotificacionCambioContrasena">
+                  <Metrics>
+                    <Metric Name="MaintainabilityIndex" Value="94" />
+                    <Metric Name="CyclomaticComplexity" Value="9" />
+                    <Metric Name="ClassCoupling" Value="2" />
+                    <Metric Name="DepthOfInheritance" Value="1" />
+                    <Metric Name="LinesOfCode" Value="9" />
+                  </Metrics>
+                  <Members>
+                    <Member Name="Usuario.get() : Usuario">
+                      <Metrics>
+                        <Metric Name="MaintainabilityIndex" Value="98" />
+                        <Metric Name="CyclomaticComplexity" Value="1" />
+                        <Metric Name="ClassCoupling" Value="1" />
+                        <Metric Name="LinesOfCode" Value="1" />
+                      </Metrics>
+                    </Member>
+                    <Member Name="Usuario.set(Usuario) : void">
+                      <Metrics>
+                        <Metric Name="MaintainabilityIndex" Value="95" />
+                        <Metric Name="CyclomaticComplexity" Value="1" />
+                        <Metric Name="ClassCoupling" Value="1" />
+                        <Metric Name="LinesOfCode" Value="1" />
+                      </Metrics>
+                    </Member>
+                    <Member Name="CorreoPara.get() : string">
+                      <Metrics>
+                        <Metric Name="MaintainabilityIndex" Value="98" />
+                        <Metric Name="CyclomaticComplexity" Value="1" />
+                        <Metric Name="ClassCoupling" Value="0" />
+                        <Metric Name="LinesOfCode" Value="1" />
+                      </Metrics>
+                    </Member>
+                    <Member Name="CorreoPara.set(string) : void">
+                      <Metrics>
+                        <Metric Name="MaintainabilityIndex" Value="95" />
+                        <Metric Name="CyclomaticComplexity" Value="1" />
+                        <Metric Name="ClassCoupling" Value="0" />
+                        <Metric Name="LinesOfCode" Value="1" />
+                      </Metrics>
+                    </Member>
+                    <Member Name="CorreoDe.get() : string">
+                      <Metrics>
+                        <Metric Name="MaintainabilityIndex" Value="98" />
+                        <Metric Name="CyclomaticComplexity" Value="1" />
+                        <Metric Name="ClassCoupling" Value="0" />
+                        <Metric Name="LinesOfCode" Value="1" />
+                      </Metrics>
+                    </Member>
+                    <Member Name="CorreoDe.set(string) : void">
+                      <Metrics>
+                        <Metric Name="MaintainabilityIndex" Value="95" />
+                        <Metric Name="CyclomaticComplexity" Value="1" />
+                        <Metric Name="ClassCoupling" Value="0" />
+                        <Metric Name="LinesOfCode" Value="1" />
+                      </Metrics>
+                    </Member>
+                    <Member Name="Asunto.get() : string">
+                      <Metrics>
+                        <Metric Name="MaintainabilityIndex" Value="98" />
+                        <Metric Name="CyclomaticComplexity" Value="1" />
+                        <Metric Name="ClassCoupling" Value="0" />
+                        <Metric Name="LinesOfCode" Value="1" />
+                      </Metrics>
+                    </Member>
+                    <Member Name="Asunto.set(string) : void">
+                      <Metrics>
+                        <Metric Name="MaintainabilityIndex" Value="95" />
+                        <Metric Name="CyclomaticComplexity" Value="1" />
+                        <Metric Name="ClassCoupling" Value="0" />
+                        <Metric Name="LinesOfCode" Value="1" />
+                      </Metrics>
+                    </Member>
+                    <Member Name="NotificacionCambioContrasena()">
+                      <Metrics>
+                        <Metric Name="MaintainabilityIndex" Value="100" />
+                        <Metric Name="CyclomaticComplexity" Value="1" />
+                        <Metric Name="ClassCoupling" Value="0" />
+                        <Metric Name="LinesOfCode" Value="1" />
+                      </Metrics>
+                    </Member>
+                  </Members>
+                </Type>
+                <Type Name="NotificacionReseteoContrasena">
+                  <Metrics>
+                    <Metric Name="MaintainabilityIndex" Value="94" />
+                    <Metric Name="CyclomaticComplexity" Value="9" />
+                    <Metric Name="ClassCoupling" Value="2" />
+                    <Metric Name="DepthOfInheritance" Value="1" />
+                    <Metric Name="LinesOfCode" Value="9" />
+                  </Metrics>
+                  <Members>
+                    <Member Name="Usuario.get() : Usuario">
+                      <Metrics>
+                        <Metric Name="MaintainabilityIndex" Value="98" />
+                        <Metric Name="CyclomaticComplexity" Value="1" />
+                        <Metric Name="ClassCoupling" Value="1" />
+                        <Metric Name="LinesOfCode" Value="1" />
+                      </Metrics>
+                    </Member>
+                    <Member Name="Usuario.set(Usuario) : void">
+                      <Metrics>
+                        <Metric Name="MaintainabilityIndex" Value="95" />
+                        <Metric Name="CyclomaticComplexity" Value="1" />
+                        <Metric Name="ClassCoupling" Value="1" />
+                        <Metric Name="LinesOfCode" Value="1" />
+                      </Metrics>
+                    </Member>
+                    <Member Name="CorreoPara.get() : string">
+                      <Metrics>
+                        <Metric Name="MaintainabilityIndex" Value="98" />
+                        <Metric Name="CyclomaticComplexity" Value="1" />
+                        <Metric Name="ClassCoupling" Value="0" />
+                        <Metric Name="LinesOfCode" Value="1" />
+                      </Metrics>
+                    </Member>
+                    <Member Name="CorreoPara.set(string) : void">
+                      <Metrics>
+                        <Metric Name="MaintainabilityIndex" Value="95" />
+                        <Metric Name="CyclomaticComplexity" Value="1" />
+                        <Metric Name="ClassCoupling" Value="0" />
+                        <Metric Name="LinesOfCode" Value="1" />
+                      </Metrics>
+                    </Member>
+                    <Member Name="CorreoDe.get() : string">
+                      <Metrics>
+                        <Metric Name="MaintainabilityIndex" Value="98" />
+                        <Metric Name="CyclomaticComplexity" Value="1" />
+                        <Metric Name="ClassCoupling" Value="0" />
+                        <Metric Name="LinesOfCode" Value="1" />
+                      </Metrics>
+                    </Member>
+                    <Member Name="CorreoDe.set(string) : void">
+                      <Metrics>
+                        <Metric Name="MaintainabilityIndex" Value="95" />
+                        <Metric Name="CyclomaticComplexity" Value="1" />
+                        <Metric Name="ClassCoupling" Value="0" />
+                        <Metric Name="LinesOfCode" Value="1" />
+                      </Metrics>
+                    </Member>
+                    <Member Name="Asunto.get() : string">
+                      <Metrics>
+                        <Metric Name="MaintainabilityIndex" Value="98" />
+                        <Metric Name="CyclomaticComplexity" Value="1" />
+                        <Metric Name="ClassCoupling" Value="0" />
+                        <Metric Name="LinesOfCode" Value="1" />
+                      </Metrics>
+                    </Member>
+                    <Member Name="Asunto.set(string) : void">
+                      <Metrics>
+                        <Metric Name="MaintainabilityIndex" Value="95" />
+                        <Metric Name="CyclomaticComplexity" Value="1" />
+                        <Metric Name="ClassCoupling" Value="0" />
+                        <Metric Name="LinesOfCode" Value="1" />
+                      </Metrics>
+                    </Member>
+                    <Member Name="NotificacionReseteoContrasena()">
+                      <Metrics>
+                        <Metric Name="MaintainabilityIndex" Value="100" />
+                        <Metric Name="CyclomaticComplexity" Value="1" />
+                        <Metric Name="ClassCoupling" Value="0" />
+                        <Metric Name="LinesOfCode" Value="1" />
+                      </Metrics>
+                    </Member>
+                  </Members>
+                </Type>
+                <Type Name="ErrorAutenticacion">
+                  <Metrics>
+                    <Metric Name="MaintainabilityIndex" Value="100" />
+                    <Metric Name="CyclomaticComplexity" Value="0" />
+                    <Metric Name="ClassCoupling" Value="0" />
+                    <Metric Name="DepthOfInheritance" Value="1" />
+                    <Metric Name="LinesOfCode" Value="0" />
+                  </Metrics>
+                  <Members />
+                </Type>
+                <Type Name="ResultadoAutenticacion">
+                  <Metrics>
+                    <Metric Name="MaintainabilityIndex" Value="94" />
+                    <Metric Name="CyclomaticComplexity" Value="7" />
+                    <Metric Name="ClassCoupling" Value="2" />
+                    <Metric Name="DepthOfInheritance" Value="1" />
+                    <Metric Name="LinesOfCode" Value="7" />
+                  </Metrics>
+                  <Members>
+                    <Member Name="Autenticado.get() : bool">
+                      <Metrics>
+                        <Metric Name="MaintainabilityIndex" Value="98" />
+                        <Metric Name="CyclomaticComplexity" Value="1" />
+                        <Metric Name="ClassCoupling" Value="0" />
+                        <Metric Name="LinesOfCode" Value="1" />
+                      </Metrics>
+                    </Member>
+                    <Member Name="Autenticado.set(bool) : void">
+                      <Metrics>
+                        <Metric Name="MaintainabilityIndex" Value="95" />
+                        <Metric Name="CyclomaticComplexity" Value="1" />
+                        <Metric Name="ClassCoupling" Value="0" />
+                        <Metric Name="LinesOfCode" Value="1" />
+                      </Metrics>
+                    </Member>
+                    <Member Name="Respuesta.get() : ErrorAutenticacion">
+                      <Metrics>
+                        <Metric Name="MaintainabilityIndex" Value="98" />
+                        <Metric Name="CyclomaticComplexity" Value="1" />
+                        <Metric Name="ClassCoupling" Value="1" />
+                        <Metric Name="LinesOfCode" Value="1" />
+                      </Metrics>
+                    </Member>
+                    <Member Name="Respuesta.set(ErrorAutenticacion) : void">
+                      <Metrics>
+                        <Metric Name="MaintainabilityIndex" Value="95" />
+                        <Metric Name="CyclomaticComplexity" Value="1" />
+                        <Metric Name="ClassCoupling" Value="1" />
+                        <Metric Name="LinesOfCode" Value="1" />
+                      </Metrics>
+                    </Member>
+                    <Member Name="Usuario.get() : Usuario">
+                      <Metrics>
+                        <Metric Name="MaintainabilityIndex" Value="98" />
+                        <Metric Name="CyclomaticComplexity" Value="1" />
+                        <Metric Name="ClassCoupling" Value="1" />
+                        <Metric Name="LinesOfCode" Value="1" />
+                      </Metrics>
+                    </Member>
+                    <Member Name="Usuario.set(Usuario) : void">
+                      <Metrics>
+                        <Metric Name="MaintainabilityIndex" Value="95" />
+                        <Metric Name="CyclomaticComplexity" Value="1" />
+                        <Metric Name="ClassCoupling" Value="1" />
+                        <Metric Name="LinesOfCode" Value="1" />
+                      </Metrics>
+                    </Member>
+                    <Member Name="ResultadoAutenticacion()">
+                      <Metrics>
+                        <Metric Name="MaintainabilityIndex" Value="100" />
+                        <Metric Name="CyclomaticComplexity" Value="1" />
+                        <Metric Name="ClassCoupling" Value="0" />
+                        <Metric Name="LinesOfCode" Value="1" />
+                      </Metrics>
+                    </Member>
+                  </Members>
+                </Type>
+                <Type Name="ErrorCambioContrasena">
+                  <Metrics>
+                    <Metric Name="MaintainabilityIndex" Value="100" />
+                    <Metric Name="CyclomaticComplexity" Value="0" />
+                    <Metric Name="ClassCoupling" Value="0" />
+                    <Metric Name="DepthOfInheritance" Value="1" />
+                    <Metric Name="LinesOfCode" Value="0" />
+                  </Metrics>
+                  <Members />
+                </Type>
+                <Type Name="ResultadoCambioContrasena">
+                  <Metrics>
+                    <Metric Name="MaintainabilityIndex" Value="94" />
+                    <Metric Name="CyclomaticComplexity" Value="5" />
+                    <Metric Name="ClassCoupling" Value="1" />
+                    <Metric Name="DepthOfInheritance" Value="1" />
+                    <Metric Name="LinesOfCode" Value="5" />
+                  </Metrics>
+                  <Members>
+                    <Member Name="ContrasenaActualizada.get() : bool">
+                      <Metrics>
+                        <Metric Name="MaintainabilityIndex" Value="98" />
+                        <Metric Name="CyclomaticComplexity" Value="1" />
+                        <Metric Name="ClassCoupling" Value="0" />
+                        <Metric Name="LinesOfCode" Value="1" />
+                      </Metrics>
+                    </Member>
+                    <Member Name="ContrasenaActualizada.set(bool) : void">
+                      <Metrics>
+                        <Metric Name="MaintainabilityIndex" Value="95" />
+                        <Metric Name="CyclomaticComplexity" Value="1" />
+                        <Metric Name="ClassCoupling" Value="0" />
+                        <Metric Name="LinesOfCode" Value="1" />
+                      </Metrics>
+                    </Member>
+                    <Member Name="Respuesta.get() : ErrorCambioContrasena">
+                      <Metrics>
+                        <Metric Name="MaintainabilityIndex" Value="98" />
+                        <Metric Name="CyclomaticComplexity" Value="1" />
+                        <Metric Name="ClassCoupling" Value="1" />
+                        <Metric Name="LinesOfCode" Value="1" />
+                      </Metrics>
+                    </Member>
+                    <Member Name="Respuesta.set(ErrorCambioContrasena) : void">
+                      <Metrics>
+                        <Metric Name="MaintainabilityIndex" Value="95" />
+                        <Metric Name="CyclomaticComplexity" Value="1" />
+                        <Metric Name="ClassCoupling" Value="1" />
+                        <Metric Name="LinesOfCode" Value="1" />
+                      </Metrics>
+                    </Member>
+                    <Member Name="ResultadoCambioContrasena()">
+                      <Metrics>
+                        <Metric Name="MaintainabilityIndex" Value="100" />
+                        <Metric Name="CyclomaticComplexity" Value="1" />
+                        <Metric Name="ClassCoupling" Value="0" />
+                        <Metric Name="LinesOfCode" Value="1" />
+                      </Metrics>
+                    </Member>
+                  </Members>
+                </Type>
+                <Type Name="Usuario">
+                  <Metrics>
+                    <Metric Name="MaintainabilityIndex" Value="93" />
+                    <Metric Name="CyclomaticComplexity" Value="11" />
+                    <Metric Name="ClassCoupling" Value="1" />
+                    <Metric Name="DepthOfInheritance" Value="1" />
+                    <Metric Name="LinesOfCode" Value="11" />
+                  </Metrics>
+                  <Members>
+                    <Member Name="Id.get() : int">
+                      <Metrics>
+                        <Metric Name="MaintainabilityIndex" Value="98" />
+                        <Metric Name="CyclomaticComplexity" Value="1" />
+                        <Metric Name="ClassCoupling" Value="0" />
+                        <Metric Name="LinesOfCode" Value="1" />
+                      </Metrics>
+                    </Member>
+                    <Member Name="Id.set(int) : void">
+                      <Metrics>
+                        <Metric Name="MaintainabilityIndex" Value="95" />
+                        <Metric Name="CyclomaticComplexity" Value="1" />
+                        <Metric Name="ClassCoupling" Value="0" />
+                        <Metric Name="LinesOfCode" Value="1" />
+                      </Metrics>
+                    </Member>
+                    <Member Name="Nombre.get() : string">
+                      <Metrics>
+                        <Metric Name="MaintainabilityIndex" Value="98" />
+                        <Metric Name="CyclomaticComplexity" Value="1" />
+                        <Metric Name="ClassCoupling" Value="0" />
+                        <Metric Name="LinesOfCode" Value="1" />
+                      </Metrics>
+                    </Member>
+                    <Member Name="Nombre.set(string) : void">
+                      <Metrics>
+                        <Metric Name="MaintainabilityIndex" Value="95" />
+                        <Metric Name="CyclomaticComplexity" Value="1" />
+                        <Metric Name="ClassCoupling" Value="0" />
+                        <Metric Name="LinesOfCode" Value="1" />
+                      </Metrics>
+                    </Member>
+                    <Member Name="Contrasena.get() : string">
+                      <Metrics>
+                        <Metric Name="MaintainabilityIndex" Value="98" />
+                        <Metric Name="CyclomaticComplexity" Value="1" />
+                        <Metric Name="ClassCoupling" Value="0" />
+                        <Metric Name="LinesOfCode" Value="1" />
+                      </Metrics>
+                    </Member>
+                    <Member Name="Contrasena.set(string) : void">
+                      <Metrics>
+                        <Metric Name="MaintainabilityIndex" Value="95" />
+                        <Metric Name="CyclomaticComplexity" Value="1" />
+                        <Metric Name="ClassCoupling" Value="0" />
+                        <Metric Name="LinesOfCode" Value="1" />
+                      </Metrics>
+                    </Member>
+                    <Member Name="FechaUltimoCambioContrasena.get() : DateTime">
+                      <Metrics>
+                        <Metric Name="MaintainabilityIndex" Value="98" />
+                        <Metric Name="CyclomaticComplexity" Value="1" />
+                        <Metric Name="ClassCoupling" Value="1" />
+                        <Metric Name="LinesOfCode" Value="1" />
+                      </Metrics>
+                    </Member>
+                    <Member Name="FechaUltimoCambioContrasena.set(DateTime) : void">
+                      <Metrics>
+                        <Metric Name="MaintainabilityIndex" Value="95" />
+                        <Metric Name="CyclomaticComplexity" Value="1" />
+                        <Metric Name="ClassCoupling" Value="1" />
+                        <Metric Name="LinesOfCode" Value="1" />
+                      </Metrics>
+                    </Member>
+                    <Member Name="Bloqueado.get() : bool">
+                      <Metrics>
+                        <Metric Name="MaintainabilityIndex" Value="98" />
+                        <Metric Name="CyclomaticComplexity" Value="1" />
+                        <Metric Name="ClassCoupling" Value="0" />
+                        <Metric Name="LinesOfCode" Value="1" />
+                      </Metrics>
+                    </Member>
+                    <Member Name="Bloqueado.set(bool) : void">
+                      <Metrics>
+                        <Metric Name="MaintainabilityIndex" Value="95" />
+                        <Metric Name="CyclomaticComplexity" Value="1" />
+                        <Metric Name="ClassCoupling" Value="0" />
+                        <Metric Name="LinesOfCode" Value="1" />
+                      </Metrics>
+                    </Member>
+                    <Member Name="Usuario()">
+                      <Metrics>
+                        <Metric Name="MaintainabilityIndex" Value="100" />
+                        <Metric Name="CyclomaticComplexity" Value="1" />
+                        <Metric Name="ClassCoupling" Value="0" />
+                        <Metric Name="LinesOfCode" Value="1" />
+                      </Metrics>
+                    </Member>
+                  </Members>
+                </Type>
+              </Types>
+            </Namespace>
+            <Namespace Name="Core.Repositorios">
+              <Metrics>
+                <Metric Name="MaintainabilityIndex" Value="100" />
+                <Metric Name="CyclomaticComplexity" Value="3" />
+                <Metric Name="ClassCoupling" Value="1" />
+                <Metric Name="DepthOfInheritance" Value="0" />
+                <Metric Name="LinesOfCode" Value="0" />
+              </Metrics>
+              <Types>
+                <Type Name="IRepositorioComandoUsuario">
+                  <Metrics>
+                    <Metric Name="MaintainabilityIndex" Value="100" />
+                    <Metric Name="CyclomaticComplexity" Value="1" />
+                    <Metric Name="ClassCoupling" Value="0" />
+                    <Metric Name="DepthOfInheritance" Value="0" />
+                    <Metric Name="LinesOfCode" Value="0" />
+                  </Metrics>
+                  <Members>
+                    <Member Name="ActualizarContrasena(string, string) : void">
+                      <Metrics>
+                        <Metric Name="MaintainabilityIndex" Value="100" />
+                        <Metric Name="CyclomaticComplexity" Value="1" />
+                        <Metric Name="ClassCoupling" Value="0" />
+                        <Metric Name="LinesOfCode" Value="0" />
+                      </Metrics>
+                    </Member>
+                  </Members>
+                </Type>
+                <Type Name="IRepositorioConsultaUsuario">
+                  <Metrics>
+                    <Metric Name="MaintainabilityIndex" Value="100" />
+                    <Metric Name="CyclomaticComplexity" Value="2" />
+                    <Metric Name="ClassCoupling" Value="1" />
+                    <Metric Name="DepthOfInheritance" Value="0" />
+                    <Metric Name="LinesOfCode" Value="0" />
+                  </Metrics>
+                  <Members>
+                    <Member Name="ObtenerPorNombre(string) : Usuario">
+                      <Metrics>
+                        <Metric Name="MaintainabilityIndex" Value="100" />
+                        <Metric Name="CyclomaticComplexity" Value="1" />
+                        <Metric Name="ClassCoupling" Value="1" />
+                        <Metric Name="LinesOfCode" Value="0" />
+                      </Metrics>
+                    </Member>
+                    <Member Name="ObtenerPorId(string) : Usuario">
+                      <Metrics>
+                        <Metric Name="MaintainabilityIndex" Value="100" />
+                        <Metric Name="CyclomaticComplexity" Value="1" />
+                        <Metric Name="ClassCoupling" Value="1" />
+                        <Metric Name="LinesOfCode" Value="0" />
+                      </Metrics>
+                    </Member>
+                  </Members>
+                </Type>
+              </Types>
+            </Namespace>
+            <Namespace Name="Core.Servicios">
+              <Metrics>
+                <Metric Name="MaintainabilityIndex" Value="92" />
+                <Metric Name="CyclomaticComplexity" Value="34" />
+                <Metric Name="ClassCoupling" Value="21" />
+                <Metric Name="DepthOfInheritance" Value="1" />
+                <Metric Name="LinesOfCode" Value="67" />
+              </Metrics>
+              <Types>
+                <Type Name="ICriptografia">
+                  <Metrics>
+                    <Metric Name="MaintainabilityIndex" Value="100" />
+                    <Metric Name="CyclomaticComplexity" Value="1" />
+                    <Metric Name="ClassCoupling" Value="0" />
+                    <Metric Name="DepthOfInheritance" Value="0" />
+                    <Metric Name="LinesOfCode" Value="0" />
+                  </Metrics>
+                  <Members>
+                    <Member Name="Cifrar(string) : string">
+                      <Metrics>
+                        <Metric Name="MaintainabilityIndex" Value="100" />
+                        <Metric Name="CyclomaticComplexity" Value="1" />
+                        <Metric Name="ClassCoupling" Value="0" />
+                        <Metric Name="LinesOfCode" Value="0" />
+                      </Metrics>
+                    </Member>
+                  </Members>
+                </Type>
+                <Type Name="ILog">
+                  <Metrics>
+                    <Metric Name="MaintainabilityIndex" Value="100" />
+                    <Metric Name="CyclomaticComplexity" Value="1" />
+                    <Metric Name="ClassCoupling" Value="0" />
+                    <Metric Name="DepthOfInheritance" Value="0" />
+                    <Metric Name="LinesOfCode" Value="0" />
+                  </Metrics>
+                  <Members>
+                    <Member Name="RegistrarMensaje(string) : void">
+                      <Metrics>
+                        <Metric Name="MaintainabilityIndex" Value="100" />
+                        <Metric Name="CyclomaticComplexity" Value="1" />
+                        <Metric Name="ClassCoupling" Value="0" />
+                        <Metric Name="LinesOfCode" Value="0" />
+                      </Metrics>
+                    </Member>
+                  </Members>
+                </Type>
+                <Type Name="IServicioCambioContrasena">
+                  <Metrics>
+                    <Metric Name="MaintainabilityIndex" Value="100" />
+                    <Metric Name="CyclomaticComplexity" Value="2" />
+                    <Metric Name="ClassCoupling" Value="4" />
+                    <Metric Name="DepthOfInheritance" Value="0" />
+                    <Metric Name="LinesOfCode" Value="0" />
+                  </Metrics>
+                  <Members>
+                    <Member Name="Cambiar(string, string, IServicioNotificacion&lt;NotificacionCambioContrasena&gt;) : ResultadoCambioContrasena">
+                      <Metrics>
+                        <Metric Name="MaintainabilityIndex" Value="100" />
+                        <Metric Name="CyclomaticComplexity" Value="1" />
+                        <Metric Name="ClassCoupling" Value="3" />
+                        <Metric Name="LinesOfCode" Value="0" />
+                      </Metrics>
+                    </Member>
+                    <Member Name="Resetear(string, IServicioNotificacion&lt;NotificacionReseteoContrasena&gt;) : void">
+                      <Metrics>
+                        <Metric Name="MaintainabilityIndex" Value="100" />
+                        <Metric Name="CyclomaticComplexity" Value="1" />
+                        <Metric Name="ClassCoupling" Value="2" />
+                        <Metric Name="LinesOfCode" Value="0" />
+                      </Metrics>
+                    </Member>
+                  </Members>
+                </Type>
+                <Type Name="IServicioAutenticacion">
+                  <Metrics>
+                    <Metric Name="MaintainabilityIndex" Value="100" />
+                    <Metric Name="CyclomaticComplexity" Value="1" />
+                    <Metric Name="ClassCoupling" Value="2" />
+                    <Metric Name="DepthOfInheritance" Value="0" />
+                    <Metric Name="LinesOfCode" Value="0" />
+                  </Metrics>
+                  <Members>
+                    <Member Name="AutenticarUsuario(Credencial) : ResultadoAutenticacion">
+                      <Metrics>
+                        <Metric Name="MaintainabilityIndex" Value="100" />
+                        <Metric Name="CyclomaticComplexity" Value="1" />
+                        <Metric Name="ClassCoupling" Value="2" />
+                        <Metric Name="LinesOfCode" Value="0" />
+                      </Metrics>
+                    </Member>
+                  </Members>
+                </Type>
+                <Type Name="IServicioGeneracionContrasena">
+                  <Metrics>
+                    <Metric Name="MaintainabilityIndex" Value="100" />
+                    <Metric Name="CyclomaticComplexity" Value="1" />
+                    <Metric Name="ClassCoupling" Value="0" />
+                    <Metric Name="DepthOfInheritance" Value="0" />
+                    <Metric Name="LinesOfCode" Value="0" />
+                  </Metrics>
+                  <Members>
+                    <Member Name="Generar() : string">
+                      <Metrics>
+                        <Metric Name="MaintainabilityIndex" Value="100" />
+                        <Metric Name="CyclomaticComplexity" Value="1" />
+                        <Metric Name="ClassCoupling" Value="0" />
+                        <Metric Name="LinesOfCode" Value="0" />
+                      </Metrics>
+                    </Member>
+                  </Members>
+                </Type>
+                <Type Name="IServicioNotificacion&lt;T&gt;">
+                  <Metrics>
+                    <Metric Name="MaintainabilityIndex" Value="100" />
+                    <Metric Name="CyclomaticComplexity" Value="1" />
+                    <Metric Name="ClassCoupling" Value="1" />
+                    <Metric Name="DepthOfInheritance" Value="0" />
+                    <Metric Name="LinesOfCode" Value="0" />
+                  </Metrics>
+                  <Members>
+                    <Member Name="Enviar(T) : void">
+                      <Metrics>
+                        <Metric Name="MaintainabilityIndex" Value="100" />
+                        <Metric Name="CyclomaticComplexity" Value="1" />
+                        <Metric Name="ClassCoupling" Value="1" />
+                        <Metric Name="LinesOfCode" Value="0" />
+                      </Metrics>
+                    </Member>
+                  </Members>
+                </Type>
+                <Type Name="ServicioAutenticacion">
+                  <Metrics>
+                    <Metric Name="MaintainabilityIndex" Value="72" />
+                    <Metric Name="CyclomaticComplexity" Value="9" />
+                    <Metric Name="ClassCoupling" Value="9" />
+                    <Metric Name="DepthOfInheritance" Value="1" />
+                    <Metric Name="LinesOfCode" Value="20" />
+                  </Metrics>
+                  <Members>
+                    <Member Name="ServicioAutenticacion(IRepositorioConsultaUsuario, ICriptografia)" File="f:\Proyectos\Blog\SoftwareDesign\AplicandoSOLID\Core\Servicios\ServicioAutenticacion.cs" Line="13">
+                      <Metrics>
+                        <Metric Name="MaintainabilityIndex" Value="81" />
+                        <Metric Name="CyclomaticComplexity" Value="1" />
+                        <Metric Name="ClassCoupling" Value="2" />
+                        <Metric Name="LinesOfCode" Value="3" />
+                      </Metrics>
+                    </Member>
+                    <Member Name="AutenticarUsuario(Credencial) : ResultadoAutenticacion" File="f:\Proyectos\Blog\SoftwareDesign\AplicandoSOLID\Core\Servicios\ServicioAutenticacion.cs" Line="23">
+                      <Metrics>
+                        <Metric Name="MaintainabilityIndex" Value="62" />
+                        <Metric Name="CyclomaticComplexity" Value="5" />
+                        <Metric Name="ClassCoupling" Value="4" />
+                        <Metric Name="LinesOfCode" Value="9" />
+                      </Metrics>
+                    </Member>
+                    <Member Name="CrearRespuestaAutenicacionInvalida(ErrorAutenticacion) : ResultadoAutenticacion" File="f:\Proyectos\Blog\SoftwareDesign\AplicandoSOLID\Core\Servicios\ServicioAutenticacion.cs" Line="51">
+                      <Metrics>
+                        <Metric Name="MaintainabilityIndex" Value="82" />
+                        <Metric Name="CyclomaticComplexity" Value="1" />
+                        <Metric Name="ClassCoupling" Value="2" />
+                        <Metric Name="LinesOfCode" Value="2" />
+                      </Metrics>
+                    </Member>
+                    <Member Name="ValidarContrasenaEsInvalida(Usuario, Credencial) : bool" File="f:\Proyectos\Blog\SoftwareDesign\AplicandoSOLID\Core\Servicios\ServicioAutenticacion.cs" Line="60">
+                      <Metrics>
+                        <Metric Name="MaintainabilityIndex" Value="77" />
+                        <Metric Name="CyclomaticComplexity" Value="1" />
+                        <Metric Name="ClassCoupling" Value="3" />
+                        <Metric Name="LinesOfCode" Value="3" />
+                      </Metrics>
+                    </Member>
+                    <Member Name="ValidarContrasenaSiExpiro(Usuario) : bool" File="f:\Proyectos\Blog\SoftwareDesign\AplicandoSOLID\Core\Servicios\ServicioAutenticacion.cs" Line="68">
+                      <Metrics>
+                        <Metric Name="MaintainabilityIndex" Value="77" />
+                        <Metric Name="CyclomaticComplexity" Value="1" />
+                        <Metric Name="ClassCoupling" Value="3" />
+                        <Metric Name="LinesOfCode" Value="3" />
+                      </Metrics>
+                    </Member>
+                  </Members>
+                </Type>
+                <Type Name="ServicioAutenticacionDecoradorLog">
+                  <Metrics>
+                    <Metric Name="MaintainabilityIndex" Value="78" />
+                    <Metric Name="CyclomaticComplexity" Value="3" />
+                    <Metric Name="ClassCoupling" Value="5" />
+                    <Metric Name="DepthOfInheritance" Value="1" />
+                    <Metric Name="LinesOfCode" Value="9" />
+                  </Metrics>
+                  <Members>
+                    <Member Name="ServicioAutenticacionDecoradorLog(IServicioAutenticacion, ILog)" File="f:\Proyectos\Blog\SoftwareDesign\AplicandoSOLID\Core\Servicios\ServicioAutenticacionDecoradorLog.cs" Line="11">
+                      <Metrics>
+                        <Metric Name="MaintainabilityIndex" Value="81" />
+                        <Metric Name="CyclomaticComplexity" Value="1" />
+                        <Metric Name="ClassCoupling" Value="2" />
+                        <Metric Name="LinesOfCode" Value="3" />
+                      </Metrics>
+                    </Member>
+                    <Member Name="AutenticarUsuario(Credencial) : ResultadoAutenticacion" File="f:\Proyectos\Blog\SoftwareDesign\AplicandoSOLID\Core\Servicios\ServicioAutenticacionDecoradorLog.cs" Line="18">
+                      <Metrics>
+                        <Metric Name="MaintainabilityIndex" Value="76" />
+                        <Metric Name="CyclomaticComplexity" Value="1" />
+                        <Metric Name="ClassCoupling" Value="3" />
+                        <Metric Name="LinesOfCode" Value="4" />
+                      </Metrics>
+                    </Member>
+                    <Member Name="RegistrarLogAutenticar(Credencial) : void" File="f:\Proyectos\Blog\SoftwareDesign\AplicandoSOLID\Core\Servicios\ServicioAutenticacionDecoradorLog.cs" Line="26">
+                      <Metrics>
+                        <Metric Name="MaintainabilityIndex" Value="82" />
+                        <Metric Name="CyclomaticComplexity" Value="1" />
+                        <Metric Name="ClassCoupling" Value="3" />
+                        <Metric Name="LinesOfCode" Value="2" />
+                      </Metrics>
+                    </Member>
+                  </Members>
+                </Type>
+                <Type Name="ServicioCambioContrasena">
+                  <Metrics>
+                    <Metric Name="MaintainabilityIndex" Value="76" />
+                    <Metric Name="CyclomaticComplexity" Value="15" />
+                    <Metric Name="ClassCoupling" Value="13" />
+                    <Metric Name="DepthOfInheritance" Value="1" />
+                    <Metric Name="LinesOfCode" Value="38" />
+                  </Metrics>
+                  <Members>
+                    <Member Name="ServicioGeneracionContrasena.get() : IServicioGeneracionContrasena">
+                      <Metrics>
+                        <Metric Name="MaintainabilityIndex" Value="98" />
+                        <Metric Name="CyclomaticComplexity" Value="1" />
+                        <Metric Name="ClassCoupling" Value="1" />
+                        <Metric Name="LinesOfCode" Value="1" />
+                      </Metrics>
+                    </Member>
+                    <Member Name="ServicioGeneracionContrasena.set(IServicioGeneracionContrasena) : void">
+                      <Metrics>
+                        <Metric Name="MaintainabilityIndex" Value="95" />
+                        <Metric Name="CyclomaticComplexity" Value="1" />
+                        <Metric Name="ClassCoupling" Value="1" />
+                        <Metric Name="LinesOfCode" Value="1" />
+                      </Metrics>
+                    </Member>
+                    <Member Name="ServicioCambioContrasena(IRepositorioConsultaUsuario, ICriptografia, IRepositorioComandoUsuario)" File="f:\Proyectos\Blog\SoftwareDesign\AplicandoSOLID\Core\Servicios\ServicioCambioContrasena.cs" Line="21">
+                      <Metrics>
+                        <Metric Name="MaintainabilityIndex" Value="76" />
+                        <Metric Name="CyclomaticComplexity" Value="1" />
+                        <Metric Name="ClassCoupling" Value="3" />
+                        <Metric Name="LinesOfCode" Value="4" />
+                      </Metrics>
+                    </Member>
+                    <Member Name="Cambiar(string, string, IServicioNotificacion&lt;NotificacionCambioContrasena&gt;) : ResultadoCambioContrasena" File="f:\Proyectos\Blog\SoftwareDesign\AplicandoSOLID\Core\Servicios\ServicioCambioContrasena.cs" Line="36">
+                      <Metrics>
+                        <Metric Name="MaintainabilityIndex" Value="60" />
+                        <Metric Name="CyclomaticComplexity" Value="4" />
+                        <Metric Name="ClassCoupling" Value="4" />
+                        <Metric Name="LinesOfCode" Value="11" />
+                      </Metrics>
+                    </Member>
+                    <Member Name="ActualizarContrasena(string, string) : void" File="f:\Proyectos\Blog\SoftwareDesign\AplicandoSOLID\Core\Servicios\ServicioCambioContrasena.cs" Line="65">
+                      <Metrics>
+                        <Metric Name="MaintainabilityIndex" Value="83" />
+                        <Metric Name="CyclomaticComplexity" Value="1" />
+                        <Metric Name="ClassCoupling" Value="2" />
+                        <Metric Name="LinesOfCode" Value="2" />
+                      </Metrics>
+                    </Member>
+                    <Member Name="BuscarUsuario(string) : Usuario" File="f:\Proyectos\Blog\SoftwareDesign\AplicandoSOLID\Core\Servicios\ServicioCambioContrasena.cs" Line="72">
+                      <Metrics>
+                        <Metric Name="MaintainabilityIndex" Value="73" />
+                        <Metric Name="CyclomaticComplexity" Value="2" />
+                        <Metric Name="ClassCoupling" Value="3" />
+                        <Metric Name="LinesOfCode" Value="5" />
+                      </Metrics>
+                    </Member>
+                    <Member Name="ValidarContrasenaTieneLongitudMinima(string) : bool" File="f:\Proyectos\Blog\SoftwareDesign\AplicandoSOLID\Core\Servicios\ServicioCambioContrasena.cs" Line="83">
+                      <Metrics>
+                        <Metric Name="MaintainabilityIndex" Value="85" />
+                        <Metric Name="CyclomaticComplexity" Value="1" />
+                        <Metric Name="ClassCoupling" Value="0" />
+                        <Metric Name="LinesOfCode" Value="2" />
+                      </Metrics>
+                    </Member>
+                    <Member Name="ValidarContrasenaEsRepetida(Usuario, string) : bool" File="f:\Proyectos\Blog\SoftwareDesign\AplicandoSOLID\Core\Servicios\ServicioCambioContrasena.cs" Line="88">
+                      <Metrics>
+                        <Metric Name="MaintainabilityIndex" Value="78" />
+                        <Metric Name="CyclomaticComplexity" Value="1" />
+                        <Metric Name="ClassCoupling" Value="2" />
+                        <Metric Name="LinesOfCode" Value="3" />
+                      </Metrics>
+                    </Member>
+                    <Member Name="ValidarContrasenaEsCompleja(string) : bool" File="f:\Proyectos\Blog\SoftwareDesign\AplicandoSOLID\Core\Servicios\ServicioCambioContrasena.cs" Line="95">
+                      <Metrics>
+                        <Metric Name="MaintainabilityIndex" Value="79" />
+                        <Metric Name="CyclomaticComplexity" Value="1" />
+                        <Metric Name="ClassCoupling" Value="1" />
+                        <Metric Name="LinesOfCode" Value="3" />
+                      </Metrics>
+                    </Member>
+                    <Member Name="CrearRespuestaCambioContrasenaInvalida(ErrorCambioContrasena) : ResultadoCambioContrasena" File="f:\Proyectos\Blog\SoftwareDesign\AplicandoSOLID\Core\Servicios\ServicioCambioContrasena.cs" Line="101">
+                      <Metrics>
+                        <Metric Name="MaintainabilityIndex" Value="82" />
+                        <Metric Name="CyclomaticComplexity" Value="1" />
+                        <Metric Name="ClassCoupling" Value="2" />
+                        <Metric Name="LinesOfCode" Value="2" />
+                      </Metrics>
+                    </Member>
+                    <Member Name="Resetear(string, IServicioNotificacion&lt;NotificacionReseteoContrasena&gt;) : void" File="f:\Proyectos\Blog\SoftwareDesign\AplicandoSOLID\Core\Servicios\ServicioCambioContrasena.cs" Line="110">
+                      <Metrics>
+                        <Metric Name="MaintainabilityIndex" Value="73" />
+                        <Metric Name="CyclomaticComplexity" Value="1" />
+                        <Metric Name="ClassCoupling" Value="4" />
+                        <Metric Name="LinesOfCode" Value="4" />
+                      </Metrics>
+                    </Member>
+                  </Members>
+                </Type>
+              </Types>
+            </Namespace>
+          </Namespaces>
+        </Module>
+      </Modules>
+    </Target>
+  </Targets>
+</CodeMetricsReport>
