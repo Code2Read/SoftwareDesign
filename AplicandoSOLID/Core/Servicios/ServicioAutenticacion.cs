@@ -68,7 +68,7 @@ public ResultadoAutenticacion AutenticarUsuario(Credencial credencial)
         {
             int nroDiasUltimoCambioContrasena =
                 DateTime.Now.Subtract(usuario.FechaUltimoCambioContrasena).Days;
-            return nroDiasUltimoCambioContrasena <= DiasMaximoCambioContrasena;
+            return nroDiasUltimoCambioContrasena > DiasMaximoCambioContrasena;
         }
 
     }
