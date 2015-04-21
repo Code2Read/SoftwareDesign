@@ -19,18 +19,7 @@ namespace Core.Servicios
         {
             _log.RegistrarMensaje(string.Format("Autenticacion usuario: {0} - Fecha: {1}",credencial.Usuario, DateTime.Now));
 
-            try
-            {
-                _repositorioCredencial.AutenticarUsuario(credencial);
-
-                return true;
-            }
-            catch (Exception ex)
-            {
-                _log.RegistrarMensaje(ex.Message);
-            }
-
-            return false;
+            return _repositorioCredencial.AutenticarUsuario(credencial);
         }
     }
 }

@@ -12,9 +12,9 @@ namespace Infraestructura
             _ruta = ruta;
         }
 
-        public void AutenticarUsuario(Credencial credencial)
+        public bool AutenticarUsuario(Credencial credencial)
         {
-            
+            return true;
         }
     }
 }
