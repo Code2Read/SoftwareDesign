@@ -2,7 +2,7 @@
 {
     using System.Data.Entity;
 
-    public class QueryDbContext : DbContext
+    internal class QueryDbContext : DbContext
     {
         public QueryDbContext()
             : base("name=Almacen")
