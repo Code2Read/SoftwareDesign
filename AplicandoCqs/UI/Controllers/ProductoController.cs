@@ -6,7 +6,16 @@
 
     public class ProductoController : Controller
     {
-        private readonly ProductoServicio servicio = new ProductoServicio();
+        private readonly IProductoServicio servicio;
+        
+        public ProductoController(IProductoServicio servicio)
+        {
+            this.servicio = servicio;
+        }
+
+        public ProductoController() :  this (new ProductoServicio())
+        {
+        }
         
         // GET: Producto
         public ActionResult Index()

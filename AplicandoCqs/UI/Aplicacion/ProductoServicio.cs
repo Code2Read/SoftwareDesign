@@ -5,7 +5,13 @@
     using Models;
     using Query;
 
-    public class ProductoServicio
+    public interface IProductoServicio
+    {
+        void AgregarProducto(ProductoInputModel productoModel);
+        ProductoViewModel ObtenerProductos();
+    }
+
+    public class ProductoServicio : IProductoServicio
     {
         public void AgregarProducto(ProductoInputModel productoModel)
         {
