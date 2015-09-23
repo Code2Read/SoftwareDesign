@@ -29,13 +29,5 @@
             return RedirectToAction("index");
         }
         
-        [HttpPost]
-        public ActionResult Editar(ProductoInputModel modelo)
-        {
-            if (!ModelState.IsValid) return View(modelo);
-
-            servicio.AgregarProducto(modelo);
-            return RedirectToAction("index");
-        }
     }
 }

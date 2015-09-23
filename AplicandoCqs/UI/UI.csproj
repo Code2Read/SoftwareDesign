@@ -159,6 +159,7 @@
     </Content>
     <Content Include="Views\Producto\Nuevo.cshtml" />
     <Content Include="Views\Producto\Index.cshtml" />
+    <Content Include="ClassDiagram.cd" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>

@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="UI.Controllers.ProductoController">
+    <Position X="1" Y="1" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>gAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAEAAAAAAAA=</HashCode>
+      <FileName>Controllers\ProductoController.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="servicio" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="UI.Aplicacion.ProductoServicio">
+    <Position X="3.75" Y="1" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAE=</HashCode>
+      <FileName>Aplicacion\ProductoServicio.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UI.Models.ProductoInputModel">
+    <Position X="1" Y="2.75" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAgAAAAgAAAAAAAAAAAAAAAAAAAAAQ=</HashCode>
+      <FileName>Models\ProductoInputModel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UI.Models.ProductoViewModel">
+    <Position X="3.75" Y="2.75" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\ProductoViewModel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
